@@ -25,6 +25,8 @@ button {
 
 body{
     font-family: var(--main-font-family);
+    color: var(--secondary-text-color-theme-dark);
+    background-color: var(--primary-text-color-theme-light);
 }
 
 .logo{
@@ -139,7 +141,7 @@ color: var(--btn-text-color-them-light);
     color: var(--accent-color);
 }
 
-.contact-link {
+.page-address{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -147,4 +149,34 @@ color: var(--btn-text-color-them-light);
     letter-spacing: 0.02em;
     color: var(--secondary-text-color-theme-dark);
 }
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
 /* /HEADER */
+
+/* HERO*/
+.hero {
+    background-color: var(--primary-text-color-theme-dark);
+}
+/* /HERO */
+
+/* STRUCTURE */
+/* /STRUCTURE */
+
+/* SERVICES */
+/* /SERVICES */
+
+/* TEAM */
+.team{
+    background-color: #f4f4df;
+}
+/* /TEAM */
+
+/* FOOTER */
+.footer{
+    background-color: var(--primary-text-color-theme-dark);
+}
+/* /FOOTER */
