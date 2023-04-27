@@ -42,8 +42,12 @@ text-transform: uppercase;
 color: var(--btn-text-color-them-light);
 }
 
-.logo-second{
+.logo-second-dark{
     color: var(--primary-text-color-theme-dark)
+}
+
+.logo-second-light{
+  color: var(--secondary-text-color-theme-light);
 }
 
 .modal-open-btn {
