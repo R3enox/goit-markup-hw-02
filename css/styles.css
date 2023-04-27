@@ -27,6 +27,23 @@ body{
     font-family: var(--main-font-family);
 }
 
+.logo{
+font-family: var(--secondary-font-family);
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--btn-text-color-them-light);
+}
+
+.logo-second{
+    color: var(--primary-text-color-theme-dark)
+}
+
 .modal-open-btn {
     font-weight: 500;
     font-size: 16px;
