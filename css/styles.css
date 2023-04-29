@@ -189,6 +189,10 @@ body {
     color: #fff;
     background-color: var(--accent-color);
 }
+
+.section-description-portfolio{
+    color:#434455;
+}
 /* /FILTERS */
 /* FOOTER */
 /* /FOOTER */
