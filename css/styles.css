@@ -21,7 +21,7 @@ button {
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434445;
+    color: #434455;
     background-color: #fff;
 }
 
@@ -42,6 +42,7 @@ body {
 }
 
 .logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -52,6 +53,7 @@ body {
 }
 
 .logo-theme-dark{
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -62,6 +64,7 @@ body {
 }
 
 .logo-theme-light{
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -115,7 +118,7 @@ body {
 /* /COMPONENTS */
 /* HEADER */
 .menu-link{
-    ont-weight: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -127,13 +130,21 @@ body {
     color: var(--accent-color);
 }
 
-.contact-list-link{
+.contact{
     font-style: normal;
+}
+
+.contact-list-link{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434445;
+    color: #434455;
+}
+
+.contact-list-link:hover,
+.contact-list-link:focus {
+    color: var(--accent-color);
 }
 /* /HEADER */
 /* HERO */
@@ -146,6 +157,10 @@ body {
 /* TEAM */
 .team {
     background-color: var(--secondary-color-theme-light);
+}
+
+.team-list-item{
+    background-color: #fff;
 }
 /* /TEAM */
 /* FOOTER */
