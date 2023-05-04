@@ -1,9 +1,9 @@
 :root {
---secondary-font-family: 'Raleway', sans-serif;
---primary-color: #4d5ae5;
---accent-color: #404bbf;
---secondary-color-theme-dark: #2e2f42;
---secondary-color-theme-light: #f4f4fd;
+    --secondary-font-family: 'Raleway', sans-serif;
+    --primary-color: #4d5ae5;
+    --accent-color: #404bbf;
+    --secondary-color-theme-dark: #2e2f42;
+    --secondary-color-theme-light: #f4f4fd;
 }
 
 .list {
@@ -52,7 +52,7 @@ body {
     color: var(--primary-color)
 }
 
-.logo-theme-dark{
+.logo-theme-dark {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -63,7 +63,7 @@ body {
     color: var(--secondary-color-theme-dark);
 }
 
-.logo-theme-light{
+.logo-theme-light {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -74,7 +74,7 @@ body {
     color: var(--secondary-color-theme-light);
 }
 
-.main-title{
+.main-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -83,7 +83,7 @@ body {
     color: #FFFFFF;
 }
 
-.title{
+.title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -93,15 +93,15 @@ body {
     color: var(--secondary-color-theme-dark);
 }
 
-.suptitle{
+.suptitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;    
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--secondary-color-theme-dark);
 }
 
-.section-description{
+.section-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -116,10 +116,11 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondary-color-theme-light);
 }
+
 /* /COMPONENTS */
 
 /* HEADER */
-.menu-link{
+.menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -128,15 +129,15 @@ body {
 }
 
 .menu-link:hover,
-.menu-link:focus{
+.menu-link:focus {
     color: var(--accent-color);
 }
 
-.contacts{
+.contacts {
     font-style: normal;
 }
 
-.contact-list-link{
+.contact-list-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -148,12 +149,14 @@ body {
 .contact-list-link:focus {
     color: var(--accent-color);
 }
+
 /* /HEADER */
 
 /* HERO */
 .hero {
     background-color: var(--secondary-color-theme-dark);
 }
+
 /* /HERO */
 
 /* SERVICES */
@@ -164,15 +167,17 @@ body {
     background-color: var(--secondary-color-theme-light);
 }
 
-.team-list-item{
+.team-list-item {
     background-color: #fff;
 }
+
 /* /TEAM */
 
 /* FOOTER */
 .footer {
     background-color: var(--secondary-color-theme-dark);
 }
+
 /* /FOOTER */
 
 /* PORTFOLIO */
@@ -180,7 +185,7 @@ body {
 /* /HEADER */
 
 /* FILTERS */
-.btn{
+.btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -192,7 +197,7 @@ body {
 }
 
 .btn:hover,
-.btn:focus{
+.btn:focus {
     color: #fff;
     background-color: var(--accent-color);
 }
